@@ -24,5 +24,7 @@ def quick_sort(inputArray, first, last):
 # main function
 array = [17, 98, 28, 10, 87, 45]
 n = len(array)
+
+
 quick_sort(array, 0, len(array)-1)
 print(array)
