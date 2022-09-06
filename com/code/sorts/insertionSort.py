@@ -6,4 +6,4 @@ def insertion_sort(B):
             B[unsorted +1] = B[unsorted]
             unsorted = unsorted - 1
         B[unsorted+1] = sorted
-        print(B)
+    print(B)

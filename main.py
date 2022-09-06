@@ -8,12 +8,12 @@ A = [3, 4, 9, 10, 3, 2, 120]
 
 # TODO for Development Branch
 
-userInput = int(input("Enter the sorting method: \n"
-                      "For Bubble Sort Enter : 1 \n"
+userInput = int(input("For Bubble Sort Enter : 1 \n"
                       "For Selection Sort Enter : 2 \n"
                       "For Insertion Sort Enter : 3 \n"
                       "For Quick Sort: 4 \n"
-                      "For Nothing  Enter : 5  : "))
+                      "For Nothing  Enter : 5  : \n"
+                      "Enter the sorting method: "))
 
 if userInput == 1:
     print("Using Bubble Sort")
@@ -29,3 +29,4 @@ elif userInput == 4:
     quickSort.quick_sort(A, 0, len(A) - 1)
 else:
     print("there is no another sorting method")
+

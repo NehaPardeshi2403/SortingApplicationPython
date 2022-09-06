@@ -20,11 +20,4 @@ def quick_sort(inputArray, first, last):
         p = pivot_element(inputArray, first, last)
         quick_sort(inputArray, first, p - 1)
         quick_sort(inputArray, p + 1, last)
-
-# main function
-array = [17, 98, 28, 10, 87, 45]
-n = len(array)
-
-
-quick_sort(array, 0, len(array)-1)
-print(array)
+    print(inputArray)
