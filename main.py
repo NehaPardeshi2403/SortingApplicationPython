@@ -4,6 +4,8 @@ import com.code.sorts.insertionSort as insertionSort
 import com.code.sorts.quickSort as quickSort
 
 A = [3, 4, 9, 10, 3, 2, 120]
+
+
 # TODO for Development Branch
 #
 def sorting_algorithum():
@@ -31,13 +33,18 @@ def sorting_algorithum():
 
 
 sorting_algorithum()
+
+
 # Added new function.
 
-def again():
-    r = input("Would you like to restart this program?")
-    if r == "yes" or r == "y":
-        return sorting_algorithum()
-    elif r == "n" or r == "no":
-        print("See you in the next one. Goodbye.")
+def rerun_Code():
+    while True:
+        r = input("Would you like to restart this program?")
+        if r == "yes" or r == "y":
+            sorting_algorithum()
+        else:
+            print("See you in the next one. Goodbye.")
+            break
 
-again()
+
+rerun_Code()
