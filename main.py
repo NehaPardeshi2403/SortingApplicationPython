@@ -36,10 +36,9 @@ sorting_algorithum()
 
 
 # Added new function.
-
 def rerun_Code():
     while True:
-        r = input("Would you like to restart this program?")
+        r = input("Would you like to restart this program? ans: ")
         if r == "yes" or r == "y":
             sorting_algorithum()
         else:

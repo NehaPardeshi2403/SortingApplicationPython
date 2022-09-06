@@ -20,4 +20,4 @@ def quick_sort(inputArray, first, last):
         p = pivot_element(inputArray, first, last)
         quick_sort(inputArray, first, p - 1)
         quick_sort(inputArray, p + 1, last)
-    print(inputArray)
+        print(inputArray)
