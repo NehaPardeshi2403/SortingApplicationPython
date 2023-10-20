@@ -4,4 +4,4 @@ def selection_sort(A):
             if A[i] > A[j+1]:
                 A[i], A[j+1] = A[j+1], A[i]
 
-        print(A)
+    print(A)
