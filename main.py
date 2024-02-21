@@ -5,9 +5,6 @@ import com.code.sorts.quickSort as quickSort
 
 A = [3, 4, 9, 10, 3, 2, 120]
 
-
-# TODO for Development Branch
-#
 def sorting_algorithum():
     userInput = int(input("For Bubble Sort Enter : 1 \n"
                           "For Selection Sort Enter : 2 \n"
